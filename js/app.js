@@ -19,7 +19,7 @@ function pageTransitions() {
     if (id) {
       // remove selected from the other btns
       sectBtns.forEach((btn) => {
-        btn.classList.remove('aactive');
+        btn.classList.remove('active');
       });
       e.target.classList.add('active');
 
